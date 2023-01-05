@@ -16,3 +16,5 @@ async function selectMediaStream() {
   }
 }
 ```
+
+The `requestPictureInPicture` method does not seem to be working anymore. It is however listed in the documentation so the issue may be on my end. 

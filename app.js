@@ -18,7 +18,7 @@ button.addEventListener("click", async () => {
   // Disable Button
   button.disabled = true;
   // Start Picture in Picture
-  await videoElement.requestFullscreen();
+  await videoElement.requestPictureInPicture();
   // Reset Button
   button.disabled = false;
 });
